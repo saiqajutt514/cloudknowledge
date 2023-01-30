@@ -1,6 +1,6 @@
 FROM centos:latest
-MAINTAINER sanjay.dahiya332@gmail.com
-RUN yum install -y httpd \
+MAINTAINER saiqajutt514@gmail.com
+RUN npm install -y httpd \
 WORKDIR /app
 CMD ["/usr/sbin/httpd", "-D",  "FOREGROUND"]
-EXPOSE 80
+EXPOSE 8080
