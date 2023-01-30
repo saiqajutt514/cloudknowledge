@@ -1,6 +1,6 @@
 FROM centos:latest
-MAINTAINER sanjay.dahiya332@gmail.com
-RUN yum install -y httpd \
+MAINTAINER saiqajutt514@gmail.com
+RUN npm install -y \
   zip \
  unzip 
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
