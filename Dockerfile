@@ -1,6 +1,6 @@
-FROM centos:latest
+FROM alpine:latest
 MAINTAINER saiqajutt514@gmail.com
 RUN npm install 
 WORKDIR /app
-CMD ["/usr/sbin/httpd", "-D",  "FOREGROUND"]
+CMD ["echo" , "saiqajutt khan ]
 EXPOSE 8080
